@@ -1,0 +1,63 @@
+{
+   "abstract" : "A module that ...",
+   "author" : [
+      "NAKAGAWA Masaki <masaki@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Test-Mock-LWP-Conditional",
+   "no_index" : {
+      "directory" : [
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.98",
+            "Test::UseAllModules" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Method::Modifiers" : 0,
+            "LWP::UserAgent" : 0,
+            "Scalar::Util" : "1.14",
+            "Sub::Install" : 0,
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "provides" : {
+      "Test::Mock::LWP::Conditional" : {
+         "file" : "lib/Test/Mock/LWP/Conditional.pm",
+         "version" : "0.01"
+      },
+      "Test::Mock::LWP::Conditional::Stubs" : {
+         "file" : "lib/Test/Mock/LWP/Conditional/Stubs.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "git://github.com/masaki/Test-Mock-LWP-Conditional.git"
+      }
+   },
+   "version" : "0.01"
+}

@@ -1,0 +1,21 @@
+Build.PL
+Changes
+lib/Test/Mock/LWP/Conditional.pm
+lib/Test/Mock/LWP/Conditional/Stubs.pm
+MANIFEST			This list of files
+META.json
+META.yml
+README
+README.pod
+t/00_compile.t
+t/10_global.t
+t/11_per_instance.t
+t/20_mix.t
+t/21_methods.t
+t/22_plural.t
+t/30_reset_all.t
+xt/01_pod.t
+xt/02_podcoverage.t
+xt/03_podspell.t
+xt/04_perlcritic.t
+xt/perlcriticrc
