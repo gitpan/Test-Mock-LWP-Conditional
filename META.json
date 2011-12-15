@@ -21,6 +21,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
+            "Test::Fake::HTTPD" : "0.03",
             "Test::More" : "0.98",
             "Test::UseAllModules" : 0
          }
@@ -43,7 +44,7 @@
    "provides" : {
       "Test::Mock::LWP::Conditional" : {
          "file" : "lib/Test/Mock/LWP/Conditional.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Test::Mock::LWP::Conditional::Stubs" : {
          "file" : "lib/Test/Mock/LWP/Conditional/Stubs.pm",
@@ -59,5 +60,5 @@
          "url" : "git://github.com/masaki/Test-Mock-LWP-Conditional.git"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
