@@ -9,7 +9,7 @@ use Sub::Install qw(install_sub);
 use Class::Method::Modifiers qw(install_modifier);
 use Test::Mock::LWP::Conditional::Stubs;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 $VERSION = eval $VERSION;
 
 our $Stubs = +{ __GLOBAL__ => +{} };
@@ -64,7 +64,7 @@ sub reset_all {
 
 =head1 NAME
 
-Test::Mock::LWP::Conditional - A module that ...
+Test::Mock::LWP::Conditional - stubbing on LWP request
 
 =head1 SYNOPSIS
 
@@ -123,5 +123,7 @@ it under the same terms as Perl itself.
 L<Test::Mock::LWP>, L<Test::Mock::LWP::Dispatch>, L<Test::MockHTTP>, L<Test::LWP::MockSocket::http>
 
 L<LWP::UserAgent>
+
+L<https://github.com/bblimke/webmock>, L<https://github.com/chrisk/fakeweb>
 
 =cut

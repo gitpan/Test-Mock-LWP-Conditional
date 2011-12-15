@@ -1,5 +1,5 @@
 ---
-abstract: 'A module that ...'
+abstract: 'stubbing on LWP request'
 author:
   - 'NAKAGAWA Masaki <masaki@cpan.org>'
 build_requires:
@@ -21,7 +21,7 @@ no_index:
 provides:
   Test::Mock::LWP::Conditional:
     file: lib/Test/Mock/LWP/Conditional.pm
-    version: 0.02
+    version: 0.03
   Test::Mock::LWP::Conditional::Stubs:
     file: lib/Test/Mock/LWP/Conditional/Stubs.pm
     version: 0
@@ -34,4 +34,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/masaki/Test-Mock-LWP-Conditional.git
-version: 0.02
+version: 0.03

@@ -1,5 +1,5 @@
 {
-   "abstract" : "A module that ...",
+   "abstract" : "stubbing on LWP request",
    "author" : [
       "NAKAGAWA Masaki <masaki@cpan.org>"
    ],
@@ -44,7 +44,7 @@
    "provides" : {
       "Test::Mock::LWP::Conditional" : {
          "file" : "lib/Test/Mock/LWP/Conditional.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       },
       "Test::Mock::LWP::Conditional::Stubs" : {
          "file" : "lib/Test/Mock/LWP/Conditional/Stubs.pm",
@@ -60,5 +60,5 @@
          "url" : "git://github.com/masaki/Test-Mock-LWP-Conditional.git"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }

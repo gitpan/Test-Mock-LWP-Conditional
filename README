@@ -1,5 +1,5 @@
 NAME
-    Test::Mock::LWP::Conditional - A module that ...
+    Test::Mock::LWP::Conditional - stubbing on LWP request
 
 SYNOPSIS
         use LWP::UserAgent;
@@ -49,4 +49,7 @@ SEE ALSO
     Test::LWP::MockSocket::http
 
     LWP::UserAgent
+
+    <https://github.com/bblimke/webmock>,
+    <https://github.com/chrisk/fakeweb>
 
